@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: white;
+    font-family: Georgia, serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTAINER PRINCIPAL */
+#conteudo{
+    width: 100vw;          /* ocupa toda largura da tela */
+    max-width: 375px;      /* tamanho do iPhone XS */
+    height: 800px;
+}
+
+/* IMAGENS */
+#beijo1,
+#beijo2{
+    width: 100%;
+    display: block;
+}
+
+/* TEXTO */
+#proximo{
+    width: 100%;
+    background-color: #f1f1f1;
+
+    text-align: center;
+
+    padding: 30px 20px;
+}
+
+#proximo h3{
+    font-size: 20px;
+    font-weight: normal;
+
+    margin-bottom: 20px;
+}
+
+/* BOTÃO */
+#proximo button{
+    background-color: red;
+    color: white;
+
+    border: none;
+
+    padding: 12px 24px;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
